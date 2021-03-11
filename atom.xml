@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CodingDiary</title>
+  <subtitle>代码日记</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xkcoding.com/"/>
+  <updated>2021-03-11T03:23:05.968Z</updated>
+  <id>https://xkcoding.com/</id>
+  
+  <author>
+    <name>xkcoding</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决 MacOS BigSur 使用 pip 安装依赖失败的问题</title>
+    <link href="https://xkcoding.com/2021/03/10/fix-error-about-python-package-install-on-big-sur.html"/>
+    <id>https://xkcoding.com/2021/03/10/fix-error-about-python-package-install-on-big-sur.html</id>
+    <published>2021-03-10T11:23:16.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;年后到现在，我已经被基金伤透了心🤕&lt;/p&gt;
+&lt;p&gt;于是乎，为了争取不做 &lt;code&gt;韭零后&lt;/code&gt;，我打算学习一下关于量化交易方面的内容。&lt;/p&gt;
+&lt;p&gt;学习量化交易，首先得先拿到交易的数据，这里我使用的是 &lt;a href=&quot;https://www.joinquant.com/help/api/help#JQData:%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8JQData&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;聚宽数据&lt;/a&gt; 提供的本地数据接口，官方提供了 Python SDK，所以我就开始照着文档安装 SDK ……&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="python" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/python/"/>
+    
+    
+      <category term="python" scheme="https://xkcoding.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020.Q4&amp;年度总结</title>
+    <link href="https://xkcoding.com/2021/01/18/Q4-2020-and-year-summary.html"/>
+    <id>https://xkcoding.com/2021/01/18/Q4-2020-and-year-summary.html</id>
+    <published>2021-01-18T09:05:00.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;我们都在用力的活着&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速运行一个你自己的「一言」程序</title>
+    <link href="https://xkcoding.com/2020/11/02/quick-run-you-own-yiyan.html"/>
+    <id>https://xkcoding.com/2020/11/02/quick-run-you-own-yiyan.html</id>
+    <published>2020-11-02T15:21:53.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。如果可以，我们希望我们没有停止服务的那一天。&lt;br&gt;
+简单来说，一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。&lt;/p&gt;
+&lt;p style=&quot;text-align:right;&quot;&gt;——选自「一言」简介&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Spring 环境下优雅的实现策略模式</title>
+    <link href="https://xkcoding.com/2020/10/11/how-to-use-strategy-design-pattern-in-spring.html"/>
+    <id>https://xkcoding.com/2020/10/11/how-to-use-strategy-design-pattern-in-spring.html</id>
+    <published>2020-10-11T01:13:29.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;背景&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近在忙一个需求，大致就是给满足特定条件的用户发营销邮件，但是用户的来源有很多方式：从 ES 查询的、从 csv 导入的、从 MongoDB 查询…… 需求很简单，但是怎么写的优雅，方便后续扩展，就存在很多门道了。&lt;/p&gt;
+&lt;p&gt;我们的项目是基于 Spring Boot 开发的，因此这篇文章也会基于 Spring Boot 作为基础框架，教你如何使用 Spring 依赖注入的特性，优雅的实现策略模式。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="spring boot" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/spring-boot/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="设计模式" scheme="https://xkcoding.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020.Q2&amp;Q3总结</title>
+    <link href="https://xkcoding.com/2020/09/30/Q2-Q3-2020.html"/>
+    <id>https://xkcoding.com/2020/09/30/Q2-Q3-2020.html</id>
+    <published>2020-09-30T22:14:48.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天国庆节，那就祝大家不加班的不要堵车，加班的不要出生产事故。😏&lt;/p&gt;
+&lt;p&gt;转眼，今年仅剩下百天不到啦。高能预警，灵魂发问环节。各位今年的计划完成的咋样？是超期完成还是又一次偷偷摸摸改成了明年计划？行动起来，今年说不准还有机会的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周末的不务正业~</title>
+    <link href="https://xkcoding.com/2020/09/13/what-i-like-to-do-0.html"/>
+    <id>https://xkcoding.com/2020/09/13/what-i-like-to-do-0.html</id>
+    <published>2020-09-13T07:09:22.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;周末的不务正业~&lt;/p&gt;
+&lt;p&gt;花了一个半小时折的燕子&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="忙里偷闲" scheme="https://xkcoding.com/categories/%E5%BF%99%E9%87%8C%E5%81%B7%E9%97%B2/"/>
+    
+    
+      <category term="忙里偷闲" scheme="https://xkcoding.com/tags/%E5%BF%99%E9%87%8C%E5%81%B7%E9%97%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>justauth-spring-boot-starter 1.3.4.beta 发布</title>
+    <link href="https://xkcoding.com/2020/08/31/justauth-spring-boot-starter-publish-1.3.4.beta.html"/>
+    <id>https://xkcoding.com/2020/08/31/justauth-spring-boot-starter-publish-1.3.4.beta.html</id>
+    <published>2020-08-31T14:51:25.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;好久不见，鸽了那么久，我回来了。Q2&amp;amp;Q3 发生了挺多事情，等后面总结的时候再详细说说。今天给大家带来的是 &lt;code&gt;justauth-spring-boot-starter&lt;/code&gt; 的 &lt;code&gt;1.3.4.beta&lt;/code&gt; 新版本的一些新特性。废话不多说，走起 ~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开源" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="JustAuth" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/JustAuth/"/>
+    
+    
+      <category term="开源" scheme="https://xkcoding.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="JustAuth" scheme="https://xkcoding.com/tags/JustAuth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>悼念外公</title>
+    <link href="https://xkcoding.com/2020/07/28/mourning-grandpa.html"/>
+    <id>https://xkcoding.com/2020/07/28/mourning-grandpa.html</id>
+    <published>2020-07-28T04:56:47.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;终究是没能熬过这个庚子年。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://xkcoding.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://xkcoding.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring-boot-demo 配套视频教程</title>
+    <link href="https://xkcoding.com/2020/06/28/video-tutorial-of-spring-boot-demo.html"/>
+    <id>https://xkcoding.com/2020/06/28/video-tutorial-of-spring-boot-demo.html</id>
+    <published>2020-06-28T04:36:38.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;spring-boot-demo&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#spring-boot-demo&quot;&gt;&lt;/a&gt;spring-boot-demo&lt;/h2&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/xkcoding/spring-boot-demo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xkcoding/spring-boot-demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;spring boot demo&lt;/code&gt; 是一个用来深度学习并实战 &lt;code&gt;spring boot&lt;/code&gt; 的项目，目前总共包含 &lt;strong&gt;&lt;code&gt;66&lt;/code&gt;&lt;/strong&gt; 个集成demo，已经完成 &lt;strong&gt;&lt;code&gt;54&lt;/code&gt;&lt;/strong&gt; 个。&lt;/p&gt;
+&lt;p&gt;现在，配套视频正式来袭~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开源" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="spring-boot-demo" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/spring-boot-demo/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="开源" scheme="https://xkcoding.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何解决 Quartz Job 中无法注入 Spring Bean</title>
+    <link href="https://xkcoding.com/2020/06/05/fix-quartz-job-cannot-autowired-spring-beans.html"/>
+    <id>https://xkcoding.com/2020/06/05/fix-quartz-job-cannot-autowired-spring-beans.html</id>
+    <published>2020-06-05T02:51:50.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-问题&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-问题&quot;&gt;&lt;/a&gt;1. 问题&lt;/h2&gt;
+&lt;p&gt;不知道小伙伴们在 Spring 集成 Quartz 的时候有没有遇到过这样一个问题，就是在 Quartz 的 Job 中 &lt;code&gt;@Autowired&lt;/code&gt; 一个 Spring Bean 的时候会报空指针异常。如果在 Spring 中无法使用 &lt;code&gt;@Autowired&lt;/code&gt; 进行注入一个 Bean 的话，这无疑是一个噩耗，那么遇到这个问题，该如何解决呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="spring boot" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/spring-boot/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="quartz" scheme="https://xkcoding.com/tags/quartz/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客是如何集成CICD的？</title>
+    <link href="https://xkcoding.com/2020/06/01/how-does-my-blog-integrate-cicd.html"/>
+    <id>https://xkcoding.com/2020/06/01/how-does-my-blog-integrate-cicd.html</id>
+    <published>2020-06-01T15:36:42.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;
+&lt;p&gt;博客现在貌似成为了一个技术人的标配，从最初的炫技到单纯的记录自己的成长历程。我的博客也经历了很多次「&lt;a href=&quot;https://xkcoding.com/about/&quot;&gt;蜕变&lt;/a&gt;」。&lt;/p&gt;
+&lt;p&gt;当下博客的选型十分多，这里我列举一些：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="devops" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/devops/"/>
+    
+    
+      <category term="devops" scheme="https://xkcoding.com/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个你自己的 RPC 框架（3）</title>
+    <link href="https://xkcoding.com/2020/05/26/how-to-design-your-own-rpc-framework-3.html"/>
+    <id>https://xkcoding.com/2020/05/26/how-to-design-your-own-rpc-framework-3.html</id>
+    <published>2020-05-26T06:43:05.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;在前面的文章&lt;a href=&quot;/2020/04/20/how-to-design-your-own-rpc-framework-1.html&quot;&gt;《如何实现一个你自己的 RPC 框架（1）》&lt;/a&gt;中，我们通过 BIO 去实现了一个简单的 RPC 通信案例，同时在&lt;a href=&quot;/2020/05/12/how-to-design-your-own-rpc-framework-2.html&quot;&gt;《如何实现一个你自己的 RPC 框架（2）》&lt;/a&gt;中我们将 BIO 改造成了 NIO，今天我们将会基于第一次 BIO 的案例进行改造，将 BIO 改造为 AIO 通信。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/rpc/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/tags/rpc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个你自己的 RPC 框架（2）</title>
+    <link href="https://xkcoding.com/2020/05/11/how-to-design-your-own-rpc-framework-2.html"/>
+    <id>https://xkcoding.com/2020/05/11/how-to-design-your-own-rpc-framework-2.html</id>
+    <published>2020-05-11T16:02:27.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;在上一篇&lt;a href=&quot;/2020/04/20/how-to-design-your-own-rpc-framework-1.html&quot;&gt;《如何实现一个你自己的 RPC 框架（1）》&lt;/a&gt;中，我们通过 BIO 去实现了一个简单的 RPC 通信案例，今天我们将会基于上次的案例进行改造，将通信由 BIO 改造为 NIO。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/rpc/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/tags/rpc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个你自己的 RPC 框架（1）</title>
+    <link href="https://xkcoding.com/2020/04/20/how-to-design-your-own-rpc-framework-1.html"/>
+    <id>https://xkcoding.com/2020/04/20/how-to-design-your-own-rpc-framework-1.html</id>
+    <published>2020-04-20T08:31:27.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;RPC，全称：Remote Procedure Call，翻译过来就是：远程过程调用。主要用来在分布式系统中，解决不同系统间的服务调用问题。RPC 不仅要让实现服务间的通信，还有一点就是要让用户在远程调用的过程中像是在本地调用一样方便。如何实现一个简易的 RPC 通信呢？这个系列的文章将会一一解答。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/rpc/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/tags/rpc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020.Q1总结 &amp; 离职感想</title>
+    <link href="https://xkcoding.com/2020/04/01/somewords-about-dissmission-2020.html"/>
+    <id>https://xkcoding.com/2020/04/01/somewords-about-dissmission-2020.html</id>
+    <published>2020-04-01T06:42:30.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里先祝大家愚人节快乐。&lt;/p&gt;
+&lt;p&gt;看了眼上次博客更新的时间，也已经过去了一个季度，真是将“拖字诀”发挥的淋漓尽致。今天聊聊我对这个季度的总结以及自己的一些离职感想。&lt;/p&gt;
+&lt;p&gt;2020 注定是个不平凡的一年！&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>又是一年总结时</title>
+    <link href="https://xkcoding.com/2019/12/31/bye2019-hello2020.html"/>
+    <id>https://xkcoding.com/2019/12/31/bye2019-hello2020.html</id>
+    <published>2019-12-31T16:00:00.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;We are all in the gutter,&lt;br&gt;but some of us are looking at the stars.&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简单 HTTP 工具</title>
+    <link href="https://xkcoding.com/2019/12/26/xkcoding-simple-http.html"/>
+    <id>https://xkcoding.com/2019/12/26/xkcoding-simple-http.html</id>
+    <published>2019-12-26T10:03:23.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;
+&lt;p&gt;因为本人是 &lt;a href=&quot;https://github.com/justauth/JustAuth&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JustAuth&lt;/a&gt; 的主要贡献者之一，&lt;code&gt;JustAuth&lt;/code&gt; 里需要和各大平台做 HTTP 交互来换取 Token、用户信息等数据，使用的是 &lt;code&gt;hutool-http&lt;/code&gt;来实现 HTTP 请求的发送。前段时间，有朋友提出一个需求：能否使用 &lt;code&gt;OkHttp3&lt;/code&gt; 等更优秀的 HTTP 请求工具来替换默认的 &lt;code&gt;hutool-http&lt;/code&gt; ？于是写一个 &lt;code&gt;simple-http&lt;/code&gt; 的想法就诞生了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开源" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="simple-http" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/simple-http/"/>
+    
+    
+      <category term="开源" scheme="https://xkcoding.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="JustAuth" scheme="https://xkcoding.com/tags/JustAuth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之结构型设计模式-装饰者模式</title>
+    <link href="https://xkcoding.com/2019/11/11/design-pattern-decorator.html"/>
+    <id>https://xkcoding.com/2019/11/11/design-pattern-decorator.html</id>
+    <published>2019-11-11T09:32:01.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-模式简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-模式简介&quot;&gt;&lt;/a&gt;1. 模式简介&lt;/h2&gt;
+&lt;p&gt;在不改变原有对象的基础之上，将新功能附加到原有对象上，提供了比继承更有弹性的解决方案（扩展原有对象的功能），属于&lt;code&gt;结构型设计模式&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="结构型设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="https://xkcoding.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之行为型设计模式-观察者模式</title>
+    <link href="https://xkcoding.com/2019/10/25/design-pattern-observer.html"/>
+    <id>https://xkcoding.com/2019/10/25/design-pattern-observer.html</id>
+    <published>2019-10-25T09:02:55.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-模式简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-模式简介&quot;&gt;&lt;/a&gt;1. 模式简介&lt;/h2&gt;
+&lt;p&gt;定义了对象之间的一对多依赖，让多个观察者对象同时监听一个主体对象，当主体对象发生变化时，它的所有观察者对象都会收到通知并更新。属于&lt;code&gt;行为型设计模式&lt;/code&gt;。观察者模式也被叫做&lt;code&gt;发布订阅模式&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="行为型设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="https://xkcoding.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式之行为型设计模式-模板方法模式</title>
+    <link href="https://xkcoding.com/2019/10/16/design-pattern-template.html"/>
+    <id>https://xkcoding.com/2019/10/16/design-pattern-template.html</id>
+    <published>2019-10-16T08:58:52.000Z</published>
+    <updated>2021-03-11T03:23:05.968Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-模式简介&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-模式简介&quot;&gt;&lt;/a&gt;1. 模式简介&lt;/h2&gt;
+&lt;p&gt;定义一个程序的整体流程，并允许子类为其中的一个或者多个步骤提供具体实现。模板方法使得子类可以在不改变整体流程的情况下，重新定义其中的某些步骤。属于&lt;code&gt;行为型设计模式&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+      <category term="行为型设计模式" scheme="https://xkcoding.com/categories/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+      <category term="设计模式" scheme="https://xkcoding.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+</feed>
