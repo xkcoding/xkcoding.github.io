@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CodingDiary</title>
+  <subtitle>代码日记</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xkcoding.com/"/>
+  <updated>2022-10-04T22:31:35.226Z</updated>
+  <id>https://xkcoding.com/</id>
+  
+  <author>
+    <name>xkcoding</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决 MacOS BigSur JD-GUI 打开失败的问题</title>
+    <link href="https://xkcoding.com/2022/01/04/fix-error-about-jd-gui-on-big-sur.html"/>
+    <id>https://xkcoding.com/2022/01/04/fix-error-about-jd-gui-on-big-sur.html</id>
+    <published>2022-01-04T12:48:04.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;JD-GUI 是一款轻量级的 Java 反编译工具，对于一些没有源码的 Jar 包，直接拖进去就可以反编译源码，十分的方便。&lt;/p&gt;
+&lt;p&gt;在 MacOS 还是 Mojave 的时候，JD-GUI 使用一切正常。&lt;/p&gt;
+&lt;p&gt;当系统升级到 BigSur 和 Monterey 的时候，打开 JD-GUI 就会提示找不到 JDK 环境。（即使你的电脑已经存在 JDK 环境并且配置了环境变量，依然会提示找不到 JDK 环境）&lt;/p&gt;
+&lt;p&gt;大致错误提示如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;ERROR launching &amp;apos;JD-GUI&amp;apos;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;No suitable Java version found on your system!&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;This program requires Java 1.8+&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;Make sure you install the required Java version.&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="java" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/java/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>愉快的本地开发体验之YAPI接口文档管理</title>
+    <link href="https://xkcoding.com/2021/05/20/happy-dev-yapi.html"/>
+    <id>https://xkcoding.com/2021/05/20/happy-dev-yapi.html</id>
+    <published>2021-05-20T02:02:11.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+      <category term="yapi" scheme="https://xkcoding.com/tags/yapi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>愉快的本地开发体验之Traefik代理</title>
+    <link href="https://xkcoding.com/2021/05/11/happy-dev-traefik-proxy.html"/>
+    <id>https://xkcoding.com/2021/05/11/happy-dev-traefik-proxy.html</id>
+    <published>2021-05-11T10:42:11.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+      <category term="traefik" scheme="https://xkcoding.com/tags/traefik/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>愉快的本地开发体验之本地DNS</title>
+    <link href="https://xkcoding.com/2021/05/01/happy-dev-run-local-dns-server.html"/>
+    <id>https://xkcoding.com/2021/05/01/happy-dev-run-local-dns-server.html</id>
+    <published>2021-05-01T02:42:11.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;写在前面&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;
+&lt;p&gt;大家在本地环境进行联调或者运行一些服务的时候，是不是经常通过 &lt;code&gt;ip:port&lt;/code&gt; 进行测试。有时候服务一多，经常性的需要记住很多 &lt;code&gt;ip:port&lt;/code&gt; 信息。&lt;/p&gt;
+&lt;p&gt;本文将介绍如何通过自定义域名的方式去替换 &lt;code&gt;ip:port&lt;/code&gt;，减去我们的记忆负担，提升我们的开发体验。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+      <category term="dns" scheme="https://xkcoding.com/tags/dns/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>当 Lombok 遇见了 MapStruct の「坑」</title>
+    <link href="https://xkcoding.com/2021/04/22/when-lombok-met-mapstruct.html"/>
+    <id>https://xkcoding.com/2021/04/22/when-lombok-met-mapstruct.html</id>
+    <published>2021-04-22T06:01:21.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;2021 年了，相信搞 Java 的小伙伴们不会还没有人没用过 Lombok 吧？&lt;/p&gt;
+&lt;p&gt;Lombok 是一款通过「&lt;code&gt;注解&lt;/code&gt;」的形式简化并消除冗余代码的 Java 插件，利用「&lt;code&gt;Annotation Processor&lt;/code&gt;」原理，在编译时生成一些「重复」代码。另外需要注意的是，在 IDEA 环境下，需要额外安装一个 Lombok 插件。（本文不会专门介绍 Lombok 的使用方法，想要深入学习的小伙伴可以去 &lt;a href=&quot;https://projectlombok.org/features/all&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官方文档&lt;/a&gt; 学习 Lombok 提供的所有注解的使用方法。）&lt;/p&gt;
+&lt;p&gt;可能一些朋友对 MapStruct 就有点陌生了，但是我敢肯定的是，你们一定用过和他功能类似的工具。比如 Apache Commons BeanUtils、Spring BeanUtils、BeanCopier、Dozer 等等。没错，MapStruct 也是为了解决对象属性拷贝这一个通用需求的。传统使用「&lt;code&gt;反射&lt;/code&gt;」进行属性拷贝的方式，在大数据量的场景下，性能低下，效率堪忧。MapStruct 底层则是通过 &lt;code&gt;getter/setter&lt;/code&gt; 的方式提升属性拷贝的性能的，跟 Lombok 一样利用「&lt;code&gt;Annotation Processor&lt;/code&gt;」的原理，在编译时生成代码。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="lombok" scheme="https://xkcoding.com/tags/lombok/"/>
+    
+      <category term="mapstruct" scheme="https://xkcoding.com/tags/mapstruct/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 docker 快速启动本地 ZooKeeper 集群</title>
+    <link href="https://xkcoding.com/2021/04/14/run-local-zookeeper-cluster-with-docker.html"/>
+    <id>https://xkcoding.com/2021/04/14/run-local-zookeeper-cluster-with-docker.html</id>
+    <published>2021-04-14T08:03:53.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://static.xkcoding.com/blog/run-local-zookeeper-cluster-with-docker/%E4%BD%BF%E7%94%A8%20docker%20%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E6%9C%AC%E5%9C%B0%20zookeeper%20%E9%9B%86%E7%BE%A4.jpg&quot; alt=&quot;文章配图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;ZooKeeper ，翻译过来就是：动物园管理员，而这也是它 logo 的由来。它是一个为分布式应用提供一致性服务的软件，是大数据场景下的一个重要的基础组件。所以安装 ZooKeeper，也是入门学习大数据的第一步。&lt;/p&gt;
+&lt;p&gt;曾几何时，我们在学习大数据技术的时候，总是先在本地环境启动虚拟机应用，然后开始初始化虚拟机配置和环境，紧接着开始安装软件。此时如果需要模拟一些集群环境，还需要进行大量重复的苦不堪言的配置工作。&lt;/p&gt;
+&lt;p&gt;今天我们便利用 Docker 来快速的在本地启动一个 ZooKeeper 环境。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="zookeeper" scheme="https://xkcoding.com/tags/zookeeper/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在本地快速启动一个 K8S 集群</title>
+    <link href="https://xkcoding.com/2021/03/15/run-local-k8s-cluster-quickly.html"/>
+    <id>https://xkcoding.com/2021/03/15/run-local-k8s-cluster-quickly.html</id>
+    <published>2021-03-15T09:44:47.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://static.xkcoding.com/blog/run-local-k8s-cluster-quickly/%E5%A6%82%E4%BD%95%E5%9C%A8%E6%9C%AC%E5%9C%B0%E5%BF%AB%E9%80%9F%E5%90%AF%E5%8A%A8%E4%B8%80%E4%B8%AA%20K8S%20%E9%9B%86%E7%BE%A4.jpg&quot; alt=&quot;文章配图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;背景&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近在阅读&lt;a href=&quot;https://reading.xkcoding.com/posts/%E6%AF%8F%E5%A4%A95%E5%88%86%E9%92%9F%E7%8E%A9%E8%BD%ACkubernetes/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;《每天5分钟玩转Kubernetes》&lt;/a&gt; 这本书，个人感觉是一本不错的 K8S 的入门书籍。&lt;/p&gt;
+&lt;p&gt;我们在刚开始学习一项技术的时候，不论是通过官方文档、书籍，亦或是视频的形式，如果仅仅是去看，而不去练习实践的话，那么是很难将其真正应用起来的。&lt;/p&gt;
+&lt;p&gt;然而当我开始准备实践的时候，发现要想在本地将 K8S 跑起来，并不像我们想象的那么容易。存在以下几点「问题」：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网络环境：K8S 里面的一些镜像在国内很难将其 pull 下来，当然这可以通过代理、镜像站等方式解决。&lt;/li&gt;
+&lt;li&gt;资源消耗：在内存资源不这么充裕的本地开发环境，去部署一个 K8S 集群，这无疑不是一个明智的选择。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那么有没有什么方案可以更优雅更轻量更快速搭建一个 K8S 集群呢？答案就是 &lt;code&gt;k3d&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="kubernetes" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/kubernetes/"/>
+    
+    
+      <category term="kubernetes" scheme="https://xkcoding.com/tags/kubernetes/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+      <category term="k3d" scheme="https://xkcoding.com/tags/k3d/"/>
+    
+      <category term="k3s" scheme="https://xkcoding.com/tags/k3s/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 MacOS BigSur 使用 pip 安装依赖失败的问题</title>
+    <link href="https://xkcoding.com/2021/03/10/fix-error-about-python-package-install-on-big-sur.html"/>
+    <id>https://xkcoding.com/2021/03/10/fix-error-about-python-package-install-on-big-sur.html</id>
+    <published>2021-03-10T11:23:16.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;年后到现在，我已经被基金伤透了心🤕&lt;/p&gt;
+&lt;p&gt;于是乎，为了争取不做 &lt;code&gt;韭零后&lt;/code&gt;，我打算学习一下关于量化交易方面的内容。&lt;/p&gt;
+&lt;p&gt;学习量化交易，首先得先拿到交易的数据，这里我使用的是 &lt;a href=&quot;https://www.joinquant.com/help/api/help#JQData:%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8JQData&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;聚宽数据&lt;/a&gt; 提供的本地数据接口，官方提供了 Python SDK，所以我就开始照着文档安装 SDK ……&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="python" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/python/"/>
+    
+    
+      <category term="python" scheme="https://xkcoding.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020.Q4&amp;年度总结</title>
+    <link href="https://xkcoding.com/2021/01/18/Q4-2020-and-year-summary.html"/>
+    <id>https://xkcoding.com/2021/01/18/Q4-2020-and-year-summary.html</id>
+    <published>2021-01-18T09:05:00.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote class=&quot;blockquote-center&quot;&gt;我们都在用力的活着&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速运行一个你自己的「一言」程序</title>
+    <link href="https://xkcoding.com/2020/11/02/quick-run-you-own-yiyan.html"/>
+    <id>https://xkcoding.com/2020/11/02/quick-run-you-own-yiyan.html</id>
+    <published>2020-11-02T15:21:53.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;intro&quot;&gt;前言&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;动漫也好、小说也好、网络也好，不论在哪里，我们总会看到有那么一两个句子能穿透你的心。我们把这些句子汇聚起来，形成一言网络，以传递更多的感动。如果可以，我们希望我们没有停止服务的那一天。&lt;br&gt;
+简单来说，一言指的就是一句话，可以是动漫中的台词，也可以是网络上的各种小段子。 或是感动，或是开心，有或是单纯的回忆。来到这里，留下你所喜欢的那一句句话，与大家分享，这就是一言存在的目的。&lt;/p&gt;
+&lt;p style=&quot;text-align:right;&quot;&gt;——选自「一言」简介&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="docker" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/docker/"/>
+    
+    
+      <category term="docker" scheme="https://xkcoding.com/tags/docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在 Spring 环境下优雅的实现策略模式</title>
+    <link href="https://xkcoding.com/2020/10/11/how-to-use-strategy-design-pattern-in-spring.html"/>
+    <id>https://xkcoding.com/2020/10/11/how-to-use-strategy-design-pattern-in-spring.html</id>
+    <published>2020-10-11T01:13:29.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;背景&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近在忙一个需求，大致就是给满足特定条件的用户发营销邮件，但是用户的来源有很多方式：从 ES 查询的、从 csv 导入的、从 MongoDB 查询…… 需求很简单，但是怎么写的优雅，方便后续扩展，就存在很多门道了。&lt;/p&gt;
+&lt;p&gt;我们的项目是基于 Spring Boot 开发的，因此这篇文章也会基于 Spring Boot 作为基础框架，教你如何使用 Spring 依赖注入的特性，优雅的实现策略模式。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="spring boot" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/spring-boot/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="设计模式" scheme="https://xkcoding.com/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020.Q2&amp;Q3总结</title>
+    <link href="https://xkcoding.com/2020/09/30/Q2-Q3-2020.html"/>
+    <id>https://xkcoding.com/2020/09/30/Q2-Q3-2020.html</id>
+    <published>2020-09-30T22:14:48.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天国庆节，那就祝大家不加班的不要堵车，加班的不要出生产事故。😏&lt;/p&gt;
+&lt;p&gt;转眼，今年仅剩下百天不到啦。高能预警，灵魂发问环节。各位今年的计划完成的咋样？是超期完成还是又一次偷偷摸摸改成了明年计划？行动起来，今年说不准还有机会的。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="总结展望" scheme="https://xkcoding.com/categories/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+    
+      <category term="总结展望" scheme="https://xkcoding.com/tags/%E6%80%BB%E7%BB%93%E5%B1%95%E6%9C%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>周末的不务正业~</title>
+    <link href="https://xkcoding.com/2020/09/13/what-i-like-to-do-0.html"/>
+    <id>https://xkcoding.com/2020/09/13/what-i-like-to-do-0.html</id>
+    <published>2020-09-13T07:09:22.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;周末的不务正业~&lt;/p&gt;
+&lt;p&gt;花了一个半小时折的燕子&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="忙里偷闲" scheme="https://xkcoding.com/categories/%E5%BF%99%E9%87%8C%E5%81%B7%E9%97%B2/"/>
+    
+    
+      <category term="忙里偷闲" scheme="https://xkcoding.com/tags/%E5%BF%99%E9%87%8C%E5%81%B7%E9%97%B2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>justauth-spring-boot-starter 1.3.4.beta 发布</title>
+    <link href="https://xkcoding.com/2020/08/31/justauth-spring-boot-starter-publish-1.3.4.beta.html"/>
+    <id>https://xkcoding.com/2020/08/31/justauth-spring-boot-starter-publish-1.3.4.beta.html</id>
+    <published>2020-08-31T14:51:25.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;好久不见，鸽了那么久，我回来了。Q2&amp;amp;Q3 发生了挺多事情，等后面总结的时候再详细说说。今天给大家带来的是 &lt;code&gt;justauth-spring-boot-starter&lt;/code&gt; 的 &lt;code&gt;1.3.4.beta&lt;/code&gt; 新版本的一些新特性。废话不多说，走起 ~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开源" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="JustAuth" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/JustAuth/"/>
+    
+    
+      <category term="开源" scheme="https://xkcoding.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="JustAuth" scheme="https://xkcoding.com/tags/JustAuth/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>悼念外公</title>
+    <link href="https://xkcoding.com/2020/07/28/mourning-grandpa.html"/>
+    <id>https://xkcoding.com/2020/07/28/mourning-grandpa.html</id>
+    <published>2020-07-28T04:56:47.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;终究是没能熬过这个庚子年。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://xkcoding.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://xkcoding.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring-boot-demo 配套视频教程</title>
+    <link href="https://xkcoding.com/2020/06/28/video-tutorial-of-spring-boot-demo.html"/>
+    <id>https://xkcoding.com/2020/06/28/video-tutorial-of-spring-boot-demo.html</id>
+    <published>2020-06-28T04:36:38.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;spring-boot-demo&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#spring-boot-demo&quot;&gt;&lt;/a&gt;spring-boot-demo&lt;/h2&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://github.com/xkcoding/spring-boot-demo&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/xkcoding/spring-boot-demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;spring boot demo&lt;/code&gt; 是一个用来深度学习并实战 &lt;code&gt;spring boot&lt;/code&gt; 的项目，目前总共包含 &lt;strong&gt;&lt;code&gt;66&lt;/code&gt;&lt;/strong&gt; 个集成demo，已经完成 &lt;strong&gt;&lt;code&gt;54&lt;/code&gt;&lt;/strong&gt; 个。&lt;/p&gt;
+&lt;p&gt;现在，配套视频正式来袭~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="开源" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/"/>
+    
+      <category term="spring-boot-demo" scheme="https://xkcoding.com/categories/%E5%BC%80%E6%BA%90/spring-boot-demo/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="开源" scheme="https://xkcoding.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何解决 Quartz Job 中无法注入 Spring Bean</title>
+    <link href="https://xkcoding.com/2020/06/05/fix-quartz-job-cannot-autowired-spring-beans.html"/>
+    <id>https://xkcoding.com/2020/06/05/fix-quartz-job-cannot-autowired-spring-beans.html</id>
+    <published>2020-06-05T02:51:50.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-问题&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-问题&quot;&gt;&lt;/a&gt;1. 问题&lt;/h2&gt;
+&lt;p&gt;不知道小伙伴们在 Spring 集成 Quartz 的时候有没有遇到过这样一个问题，就是在 Quartz 的 Job 中 &lt;code&gt;@Autowired&lt;/code&gt; 一个 Spring Bean 的时候会报空指针异常。如果在 Spring 中无法使用 &lt;code&gt;@Autowired&lt;/code&gt; 进行注入一个 Bean 的话，这无疑是一个噩耗，那么遇到这个问题，该如何解决呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="spring boot" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/spring-boot/"/>
+    
+    
+      <category term="spring boot" scheme="https://xkcoding.com/tags/spring-boot/"/>
+    
+      <category term="quartz" scheme="https://xkcoding.com/tags/quartz/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客是如何集成CICD的？</title>
+    <link href="https://xkcoding.com/2020/06/01/how-does-my-blog-integrate-cicd.html"/>
+    <id>https://xkcoding.com/2020/06/01/how-does-my-blog-integrate-cicd.html</id>
+    <published>2020-06-01T15:36:42.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;1-前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#1-前言&quot;&gt;&lt;/a&gt;1. 前言&lt;/h2&gt;
+&lt;p&gt;博客现在貌似成为了一个技术人的标配，从最初的炫技到单纯的记录自己的成长历程。我的博客也经历了很多次「&lt;a href=&quot;https://xkcoding.com/about/&quot;&gt;蜕变&lt;/a&gt;」。&lt;/p&gt;
+&lt;p&gt;当下博客的选型十分多，这里我列举一些：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="devops" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/devops/"/>
+    
+    
+      <category term="devops" scheme="https://xkcoding.com/tags/devops/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个你自己的 RPC 框架（3）</title>
+    <link href="https://xkcoding.com/2020/05/26/how-to-design-your-own-rpc-framework-3.html"/>
+    <id>https://xkcoding.com/2020/05/26/how-to-design-your-own-rpc-framework-3.html</id>
+    <published>2020-05-26T06:43:05.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;在前面的文章&lt;a href=&quot;/2020/04/20/how-to-design-your-own-rpc-framework-1.html&quot;&gt;《如何实现一个你自己的 RPC 框架（1）》&lt;/a&gt;中，我们通过 BIO 去实现了一个简单的 RPC 通信案例，同时在&lt;a href=&quot;/2020/05/12/how-to-design-your-own-rpc-framework-2.html&quot;&gt;《如何实现一个你自己的 RPC 框架（2）》&lt;/a&gt;中我们将 BIO 改造成了 NIO，今天我们将会基于第一次 BIO 的案例进行改造，将 BIO 改造为 AIO 通信。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/rpc/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/tags/rpc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何实现一个你自己的 RPC 框架（2）</title>
+    <link href="https://xkcoding.com/2020/05/11/how-to-design-your-own-rpc-framework-2.html"/>
+    <id>https://xkcoding.com/2020/05/11/how-to-design-your-own-rpc-framework-2.html</id>
+    <published>2020-05-11T16:02:27.000Z</published>
+    <updated>2022-10-04T22:31:35.226Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;在上一篇&lt;a href=&quot;/2020/04/20/how-to-design-your-own-rpc-framework-1.html&quot;&gt;《如何实现一个你自己的 RPC 框架（1）》&lt;/a&gt;中，我们通过 BIO 去实现了一个简单的 RPC 通信案例，今天我们将会基于上次的案例进行改造，将通信由 BIO 改造为 NIO。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="技术相关" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/categories/%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/rpc/"/>
+    
+    
+      <category term="java" scheme="https://xkcoding.com/tags/java/"/>
+    
+      <category term="rpc" scheme="https://xkcoding.com/tags/rpc/"/>
+    
+  </entry>
+  
+</feed>
